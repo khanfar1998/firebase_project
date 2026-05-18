@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60885814724",
+    "project_id": "fir-test-b75b7",
+    "storage_bucket": "fir-test-b75b7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60885814724:android:728cfbf496b3b98764e891",
+        "android_client_info": {
+          "package_name": "app.test.khanfar.firebase_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ8ww1fd0TYcp6sPWPjiqgiGhI6YYyAG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
