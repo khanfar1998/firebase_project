@@ -1,5 +1,6 @@
 import 'package:firebase_project/auth/screens/login_screen.dart';
 import 'package:firebase_project/auth/services/auth_service.dart';
+import 'package:firebase_project/tasks/screens/task_screen.dart';
 import 'package:firebase_project/users/models/user_model.dart';
 import 'package:flutter/material.dart';
 
@@ -36,6 +37,17 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text('Welcome, ${_currentUser!.name}!'),
+                  SizedBox(height: 20),
+                  ElevatedButton(
+                    onPressed: () {
+                      // Navigate to tasks screen
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => TaskScreen()),
+                      );
+                    },
+                    child: Text('View Tasks'),
+                  ),
                   SizedBox(height: 20),
                   ElevatedButton(
                     onPressed: () async {
